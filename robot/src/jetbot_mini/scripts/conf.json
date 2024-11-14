@@ -1,0 +1,202 @@
+{
+
+    "robot_node":{
+        "name": "master",
+        "master_name": "master",
+        "index": 0,
+        "number_others": 1,
+        "camera_node_name": "Camera_",
+        "full_speed": 0.5,
+        "speed_factor": 0.5
+    },
+    "Alphabet_en":
+    {
+        "A": [
+            {"x": -1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0.5, "y": 1, "circular": 0, "right": 0},
+            {"x": -0.5, "y": 1, "circular": 0, "right": 0},
+            {"x": -1, "y": 0, "circular": 0, "right": 0}],
+        "B": [
+            {"x": 0, "y": 0, "circular": 0, "right": 0}, 
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1.07, "circular": 1, "right": 1},
+            {"x": 0, "y": 0, "circular": 1, "right": 1}
+           ],
+        "C": [
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 1, "right": 1}
+           ],
+           
+        "D": [
+            {"x": 0, "y": 0, "circular": 0, "right": 0}, 
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 1, "right": 1}],
+        "E":[
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": 1, "circular": 0, "right": 0}, 
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}
+        ],
+        "F":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": 1, "circular": 0, "right": 0}, 
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+        "G":[
+            {"x": 1, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 0, "circular": 1, "right": 0},
+            {"x": 1, "y": 0.8, "circular": 0, "right": -1},
+            {"x": 0.7, "y": 0.8, "circular": 0, "right": 0},
+            {"x": 1.2, "y": 0.8, "circular": 0, "right": 0},
+            {"x": 1.2, "y": 0.3, "circular": 0, "right": 0}],
+            
+
+        "H":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 1.5, "y": 1, "circular": 0, "right": 0},
+            {"x": 1.5, "y": 2, "circular": 0, "right": 0},
+            {"x": 1.5, "y": 0, "circular": 0, "right": 0}],
+
+        "I":[
+            
+            {"x": 0.75, "y": 0, "circular": 0, "right": 0},
+            {"x": -0.75, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": -0.75, "y": 2, "circular": 0, "right": 0},
+            {"x": 0.75, "y": 2, "circular": 0, "right": 0}],
+        "J": [
+            {"x": -0.75, "y": 2, "circular": 0, "right": 0},
+            {"x": 0.75, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": -1, "y": 0.5, "circular": 1, "right": 1}],
+
+        "K":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 0.75, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 0.85, "y": 0, "circular": 0, "right": 0}],
+
+        "L":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0}, 
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0}],
+            
+        "M":[
+            
+            {"x": -1, "y": 0, "circular": 0, "right": 0},
+            {"x": -1, "y": 2, "circular": 0, "right": 0},
+            {"x": -0.5, "y": 1, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0}],
+
+        "N":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+        "O":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 1, "right": 1},
+            {"x": 0, "y": 0, "circular": 1, "right": 1}],
+        "P": [
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 1, "right": 1}],
+        "Q":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 1, "right": 1},
+            {"x": 0, "y": 0, "circular": 1, "right": 1},
+            {"x": 0.5, "y": 0.15, "circular": 1, "right": 1},
+            {"x": 0.75, "y": -0.1, "circular": 0, "right": 0}
+            ],
+        "R":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0.85, "circular": 1, "right": 1},
+            {"x": 0.75, "y": 0, "circular": 0, "right": 0}],
+        "S": [
+            {"x": -0.6, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 1, "right": -1},
+            {"x": 0.6, "y": 2, "circular": 1, "right": 1}],
+        "T":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0},
+            {"x": -1, "y": 2, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+        "U":[
+            {"x": -1, "y": 2, "circular": 0, "right": 0},
+            {"x": -1, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 0, "circular": 1, "right": -1},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+
+        "V":[{"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": -1, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+
+        "W":[
+            {"x": -1, "y": 2, "circular": 0, "right": 0},
+            {"x": -1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0}],
+
+        "X":[
+            {"x": -0.5, "y": 0, "circular": 0, "right": 0},
+            {"x": 0.5, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": -0.5, "y": 2, "circular": 0, "right": 0},
+            {"x": 0.5, "y": 0, "circular": 0, "right": 0}],
+        "Y":[
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 1.2, "circular": 0, "right": 0},
+            {"x": 0.8, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 1.2, "circular": 0, "right": 0},
+            {"x": -0.8, "y": 2, "circular": 0, "right": 0}],
+        "Z":[
+            {"x": 1, "y": 0, "circular": 0, "right": 0},
+            {"x": 0, "y": 0, "circular": 0, "right": 0},
+            {"x": 1, "y": 2, "circular": 0, "right": 0},
+            {"x": 0, "y": 2, "circular": 0, "right": 0}]
+    },
+
+    "Alphabet_ar":
+    {
+    },
+
+    "Shapes":
+    {
+        "circle": [
+            {"x": 0, "y": -1, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 1, "right": -1},
+            {"x": 0, "y": -1, "circular": 1, "right": -1}],
+        "square": [
+            {"x": -1, "y": -1, "circular": 0, "right": 0},
+            {"x": -1, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": -1, "circular": 0, "right": 0},
+            {"x": -1, "y": -1, "circular": 0, "right": 0}],
+
+        "triangle": [
+            {"x": -1, "y": -1, "circular": 0, "right": 0},
+            {"x": 0, "y": 1, "circular": 0, "right": 0},
+            {"x": 1, "y": -1, "circular": 0, "right": 0},
+            {"x": -1, "y": -1, "circular": 0, "right": 0}
+        ]
+    }
+}

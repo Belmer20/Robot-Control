@@ -1,0 +1,12 @@
+<launch>
+    <!-- Launch P_robot node -->
+    <node name="MASTER" pkg="jetbot_mini" type="P_Robot.py" output="screen" />
+
+    <!-- Launch AI_model node -->
+    <!-- <node name="AI_model_node" pkg="your_package" type="AI_model_node.py" output="screen" /> -->
+
+    <!-- Launch S_Robot node -->
+    <!-- <node name="S_Robot_node" pkg="your_package" type="S_Robot.py" output="screen" /> -->
+    <node name="API" pkg="jetbot_mini" type="api.py" output="log" />
+    <node name="slave" pkg="secondary_robot" type="S_Robot.py" output="screen" />
+</launch>

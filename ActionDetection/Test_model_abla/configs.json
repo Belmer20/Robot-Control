@@ -1,0 +1,5 @@
+{
+  "train_data_folder": "/Users/mac/Documents/2CS_IASD/S2/PROJET_2CS/RT_GestureRecognition/archive/Train",
+  "full_train_data_csv": "/Users/mac/Documents/2CS_IASD/S2/PROJET_2CS/RT_GestureRecognition/archive/Train.csv",
+  "full_labels_csv": "/Users/mac/Documents/2CS_IASD/S2/PROJET_2CS/Action_recognition_3dcnn/Project-2CS/ActionDetection/Test_model_abla/jester-v1-labels.csv"
+}
